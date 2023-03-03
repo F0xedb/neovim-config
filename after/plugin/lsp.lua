@@ -20,7 +20,7 @@ lsp.ensure_installed({
   'dockerls',
   'terraformls',
   'yamlls',
-  'sumneko_lua'
+  --'sumneko_lua'
 })
 
 -- Fix Undefined global 'vim'

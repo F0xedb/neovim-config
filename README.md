@@ -1,5 +1,6 @@
 ### My neovim config
 Prerequisite: install [ripgrep](https://github.com/BurntSushi/ripgrep).
+Prerequisite: install [wl-clipboard](https://archlinux.org/packages/community/x86_64/wl-clipboard/).
 
 
 ### Usefull Keybinds
@@ -13,7 +14,10 @@ Note `leader` in my default case is a space, this behavior can be changed by edi
 - `<leader>ps`: search for symbols through the entire repo
 - `<leader>pf`: search for a specific file in the repo
 - `<leader>pg`: Same as `pf` but only in git files (Takes into account .gitignore)
+
 - `<leader>pv`: Open the directory view
+  - `d`: create a new directory
+  - `%`: create a new file
 
 #### MISC
 - `<leader>f`: Format the current document
