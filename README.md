@@ -14,6 +14,7 @@ Note `leader` in my default case is a space, this behavior can be changed by edi
 - `<leader>ps`: search for symbols through the entire repo
 - `<leader>pf`: search for a specific file in the repo
 - `<leader>pg`: Same as `pf` but only in git files (Takes into account .gitignore)
+- `<leader>pt`: Search for comments with (TODO,ERROR,FIXME,...) in the codebase
 
 - `<leader>pv`: Open the directory view
   - `d`: create a new directory
