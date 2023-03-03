@@ -33,3 +33,8 @@ Note `leader` in my default case is a space, this behavior can be changed by edi
 #### Playfull
 - `<leader>mr`: Make the source code rain
 
+# Handy tips
+
+- `:cd` to change the vim working directory
+- `>>` - Indent lines in normal mode
+- `<<` - Unindent lines in normal mode

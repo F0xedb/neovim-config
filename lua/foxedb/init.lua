@@ -36,3 +36,4 @@ vim.g.netrw_winsize = 25
 
 -- Allow the + buffer to be implicitly defined
 vim.api.nvim_set_option("clipboard","unnamedplus")
+
