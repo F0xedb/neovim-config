@@ -85,6 +85,7 @@ return require('packer').startup(function(use)
         config = function()
             require('dashboard').setup {
                 -- config
+                change_to_vcs_root = true, -- When opening a config, we automatically jump the working directory to the root of the project
             }
         end,
         requires = { 'nvim-tree/nvim-web-devicons' }
